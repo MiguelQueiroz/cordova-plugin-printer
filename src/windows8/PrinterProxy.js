@@ -23,4 +23,4 @@ PrinterProxy = {
 var printManager = Windows.Graphics.Printing.PrintManager.getForCurrentView();
 printManager.onprinttaskrequested = PrinterProxy.printTaskRequested;
 
-require("cordova/windows8/commandProxy").add("Printer", PrinterProxy);
+require("cordova/exec/proxy").add("Printer", PrinterProxy);
