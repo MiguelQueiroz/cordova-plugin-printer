@@ -178,7 +178,7 @@ public class Printer extends CordovaPlugin {
                         .getSystemService(Context.PRINT_SERVICE);
 
                 // Get a print adapter instance
-                PrintDocumentAdapter printAdapter = webView.createPrintDocumentAdapter();
+                PrintDocumentAdapter printAdapter = webView.createPrintDocumentAdapter(docName);
 
                 // Get a print builder instance
                 PrintAttributes.Builder builder = new PrintAttributes.Builder();
