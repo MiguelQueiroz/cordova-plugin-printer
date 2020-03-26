@@ -161,7 +161,7 @@ public class Printer extends CordovaPlugin {
      *      The JSON object with the containing page properties
      */
     private void setWebViewClient (JSONObject props) {
-        final String docName = props.optString("name", DEFAULT_DOC_NAME);
+        final String docName = props.optString("name", "test");
         final boolean landscape = props.optBoolean("landscape", false);
         final boolean graystyle = props.optBoolean("graystyle", false);
 
