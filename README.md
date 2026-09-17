@@ -1,5 +1,4 @@
-# Zappy printer fork
-
+# Cordova printer fork
 This fork tracks `katzer/cordova-plugin-printer` through commit
 `672d8045181fe0eb4772c479681bd6f479ca8949` and retains the package/plugin ID
 `de.appplant.cordova.plugin.printer` for existing Cordova projects.
