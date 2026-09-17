@@ -1,14 +1,12 @@
-## 0.8.1 (Zappy fork)
+## ChangeLog
 
+#### Version 0.8.1 (17.09.2026)
 - Merge upstream through `672d804` and adopt native iOS printing without UIWebView.
 - Preserve PDF data URLs and requested document names; support those data URLs on iOS.
 - Use AndroidX print dependencies and retain legacy JavaScript option aliases.
 - Keep the existing fork package/plugin ID for installed applications.
 
-## ChangeLog
-
-#### Version 0.8.0 (01.03.2019)
-- Most parts of the code has been rewritten
+## ##### Version 0.8.0 (01.03.2019)st parts of the code has been rewritten
 - Added support for Android 8+
 - Added support for iOS 10+
 - Added support for the browser platform
