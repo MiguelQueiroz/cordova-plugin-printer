@@ -19,6 +19,8 @@
  under the License.
  */
 
+#import <UIKit/UIKit.h>
+
 @interface APPPrinterItem : NSObject
 
 + (id) ItemFromURL:(NSString *)url;

@@ -19,6 +19,8 @@
  under the License.
  */
 
+#import <UIKit/UIKit.h>
+
 @interface APPPrinterLayout : NSObject
 
 + (UIPrintFormatter *) configureFormatter:(UIPrintFormatter *)formatter withSettings:(nullable NSDictionary *)settings;

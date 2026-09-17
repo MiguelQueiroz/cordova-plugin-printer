@@ -19,6 +19,8 @@
  under the License.
  */
 
+#import <Foundation/Foundation.h>
+
 @interface APPPrinterUnit : NSObject
 
 + (double) convert:(nullable id)unit;

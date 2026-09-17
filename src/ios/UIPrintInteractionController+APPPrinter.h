@@ -19,6 +19,8 @@
  under the License.
  */
 
+#import <UIKit/UIKit.h>
+
 @interface UIPrintInteractionController (APPPrinter)
 
 + (instancetype) sharedPrintControllerWithSettings:(NSDictionary *)settings;

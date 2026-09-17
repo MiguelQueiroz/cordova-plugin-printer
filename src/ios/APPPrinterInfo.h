@@ -19,6 +19,8 @@
  under the License.
  */
 
+#import <UIKit/UIKit.h>
+
 @interface APPPrinterInfo : UIPrintInfo
 
 + (UIPrintInfo *) printInfoWithDictionary:(NSDictionary *)spec;

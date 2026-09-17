@@ -19,6 +19,8 @@
  under the License.
  */
 
+#import <UIKit/UIKit.h>
+
 @interface APPPrinterRenderer : UIPrintPageRenderer
 
 - (instancetype) initWithDictionary:(NSDictionary *)spec formatter:(UIPrintFormatter *)formatter;
