@@ -1,40 +1,52 @@
 {
   "name": "de.appplant.cordova.plugin.printer",
-  "version": "0.7.3",
-  "description": "Cordova plugin to print HTML documents using AirPrint and Android Printing Framework.",
+  "version": "0.8.1",
+  "description": "Prints HTML documents",
   "cordova": {
     "id": "de.appplant.cordova.plugin.printer",
     "platforms": [
       "ios",
-      "android"
+      "android",
+      "windows",
+      "browser"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MiguelQueiroz/cordova-plugin-printer"
+    "url": "git+https://github.com/MiguelQueiroz/cordova-plugin-printer.git"
   },
   "keywords": [
     "appplant",
-    "print",
     "printer",
-    "ios",
-    "android",
-    "google cloud",
-    "air print",
+    "cordova",
     "ecosystem:cordova",
     "cordova-ios",
-    "cordova-android"
+    "cordova-android",
+    "cordova-windows",
+    "cordova-browser"
   ],
   "engines": [
     {
       "name": "cordova",
       "version": ">=3.0.0"
+    },
+    {
+      "name": "android-sdk",
+      "version": ">=19"
+    },
+    {
+      "name": "apple-ios",
+      "version": ">=8.0"
     }
   ],
-  "author": "Sebastián Katzer",
+  "author": "Sebasti\u00e1n Katzer",
   "license": "Apache 2.0",
   "bugs": {
-    "url": "https://github.com/MiguelQueiroz/cordova-plugin-printer"
+    "url": "https://github.com/MiguelQueiroz/cordova-plugin-printer/issues"
   },
-  "homepage": "https://github.com/MiguelQueiroz/cordova-plugin-printer"
+  "homepage": "https://github.com/MiguelQueiroz/cordova-plugin-printer#readme",
+  "dependencies": {},
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  }
 }
